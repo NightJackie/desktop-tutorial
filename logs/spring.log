@@ -1,0 +1,166 @@
+2021-08-30 20:30:35.604  INFO 3036 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.74
+
+2021-08-30 20:30:36.080  INFO 3036 --- [main] lavalink.server.Launcher                 : Starting Launcher on GuestedKun with PID 3036 (C:\Users\ellio\Desktop\AHK's and other things\MonikaV3Remaster\Lavalink.jar started by ellio in C:\Users\ellio\Desktop\AHK's and other things\MonikaV3Remaster)
+2021-08-30 20:30:36.081  INFO 3036 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-08-30 20:30:40.379  WARN 3036 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-08-30 20:30:40.411  INFO 3036 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-08-30 20:30:40.412  INFO 3036 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4184 ms
+2021-08-30 20:30:41.217  WARN 3036 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-08-30 20:30:44.459  INFO 3036 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-08-30 20:30:51.192  INFO 3036 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-08-30 20:30:51.199  WARN 3036 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-08-30 20:30:51.935  INFO 3036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-30 20:30:55.454  INFO 3036 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-08-30 20:30:55.472  INFO 3036 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-08-30 20:30:55.759  INFO 3036 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-08-30 20:30:55.793  INFO 3036 --- [main] lavalink.server.Launcher                 : Started Launcher in 24.929 seconds (JVM running for 57.173)
+2021-08-30 20:30:55.796  INFO 3036 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-08-30 20:31:12.359  INFO 3036 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 20:31:12.359  INFO 3036 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 20:31:12.370  INFO 3036 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-08-30 20:31:12.416  INFO 3036 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:55521
+2021-08-30 20:31:12.675  INFO 3036 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-08-30 20:31:33.421  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":50}
+2021-08-30 20:31:33.434  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"821068727843160144","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-08-30 20:31:33.438  WARN 3036 --- [XNIO-1 I/O-1] lavalink.server.io.WebSocketHandlers     : The 'equalizer' op has been deprecated in favour of the 'filters' op. Please switch to use that one, as this op will get removed in v4.
+2021-08-30 20:31:33.442  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":100}
+2021-08-30 20:31:33.443  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"821068727843160144"}
+2021-08-30 20:31:33.472  INFO 3036 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=pzufsEBnjRM"
+2021-08-30 20:31:33.542  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"1e85637e02151f96101bd225cc5cc5bf","op":"voiceUpdate","guildId":"821068727843160144","event":{"token":"a8bd606b10b5f17c","guild_id":"821068727843160144","endpoint":"atlanta3365.discord.media:443"}}
+2021-08-30 20:31:34.578  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"1e85637e02151f96101bd225cc5cc5bf","op":"voiceUpdate","guildId":"821068727843160144","event":{"token":"a8bd606b10b5f17c","guild_id":"821068727843160144","endpoint":"atlanta3365.discord.media:443"}}
+2021-08-30 20:31:35.893  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track PESHI PESHI
+2021-08-30 20:31:36.094  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAbQIAC1BFU0hJIFBFU0hJAAhob2xvbGFtcAAAAAAAAC7gAAtwenVmc0VCbmpSTQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXB6dWZzRUJualJNAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-08-30 20:31:36.978  INFO 3036 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$593/0x00000008012b8000@74c27b6f
+2021-08-30 20:31:37.414  INFO 3036 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-08-30 20:31:37.416  INFO 3036 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-08-30 20:31:37.710  INFO 3036 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-08-30 20:31:47.282  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":20}
+2021-08-30 20:32:27.350  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"821068727843160144"}
+2021-08-30 20:33:14.546  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":50}
+2021-08-30 20:33:14.548  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"821068727843160144","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-08-30 20:33:14.592  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":100}
+2021-08-30 20:33:14.593  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"821068727843160144"}
+2021-08-30 20:33:14.686  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"1e85637e02151f96101bd225cc5cc5bf","op":"voiceUpdate","guildId":"821068727843160144","event":{"token":"ce3cd503487d5976","guild_id":"821068727843160144","endpoint":"atlanta3365.discord.media:443"}}
+2021-08-30 20:33:15.123  INFO 3036 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Fight Back"
+2021-08-30 20:33:15.751  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"1e85637e02151f96101bd225cc5cc5bf","op":"voiceUpdate","guildId":"821068727843160144","event":{"token":"ce3cd503487d5976","guild_id":"821068727843160144","endpoint":"atlanta3365.discord.media:443"}}
+2021-08-30 20:33:16.060  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Fight Back
+2021-08-30 20:33:16.101  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAhAIAJE5FRkZFWCAtIEZpZ2h0IEJhY2sgW09mZmljaWFsIFZpZGVvXQAGTkVGRkVYAAAAAAADAYgAC0NZRFBfOFVUQXVzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Q1lEUF84VVRBdXMAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 20:33:19.455  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":20}
+2021-08-30 20:34:29.184  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"821068727843160144","pause":true}
+2021-08-30 20:35:43.756  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"821068727843160144","pause":false}
+2021-08-30 20:36:04.433  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":10}
+2021-08-30 20:37:49.298  INFO 3036 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Rumors"
+2021-08-30 20:37:50.165  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Rumors
+2021-08-30 20:37:50.261  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAhwIAJ05FRkZFWCAtIFJ1bW9ycyDtoL3tsosgW0NvcHlyaWdodCBGcmVlXQAGTkVGRkVYAAAAAAADyMAAC2tYcHRQektOTXE0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a1hwdFB6S05NcTQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 20:38:00.310  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":20}
+2021-08-30 20:39:51.092  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"821068727843160144","pause":true}
+2021-08-30 20:40:52.844  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"821068727843160144","pause":false}
+2021-08-30 20:43:00.413  INFO 3036 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Grateful"
+2021-08-30 20:43:02.001  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Grateful
+2021-08-30 20:43:02.015  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAggIAIk5FRkZFWCAtIEdyYXRlZnVsIFtDb3B5cmlnaHQgRnJlZV0ABk5FRkZFWAAAAAAAAsrYAAs4M1JVaHhzZkxXcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTgzUlVoeHNmTFdzAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-08-30 20:46:05.934  INFO 3036 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Destiny"
+2021-08-30 20:46:07.008  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Destiny
+2021-08-30 20:46:07.044  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAigIAKk5FRkZFWCAtIERlc3Rpbnkg7aC97bmMICAgW0NvcHlyaWdodCBGcmVlXQAGTkVGRkVYAAAAAAADKJgACzI0QzhyOEp1cFlZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MjRDOHI4SnVwWVkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 20:49:34.574  INFO 3036 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Best of Me"
+2021-08-30 20:49:35.405  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Best of Me
+2021-08-30 20:49:35.420  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAhAIAJE5FRkZFWCAtIEJlc3Qgb2YgTWUgW09mZmljaWFsIFZpZGVvXQAGTkVGRkVYAAAAAAADpZgACzBXYV9DUjBIOGc0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MFdhX0NSMEg4ZzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 20:53:35.274  INFO 3036 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Careless"
+2021-08-30 20:53:35.991  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Careless
+2021-08-30 20:53:36.008  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAiQIAKU5FRkZFWCAtIENhcmVsZXNzIO2gve2ylCBbQ29weXJpZ2h0IEZyZWVdAAZORUZGRVgAAAAAAASIKAALWjZMNHUyaTk3UncAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aNkw0dTJpOTdSdwAHeW91dHViZQAAAAAAAAAA"}
+2021-08-30 20:58:33.694  INFO 3036 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Cold"
+2021-08-30 20:58:34.430  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Cold
+2021-08-30 20:58:34.439  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAhAIAJE5FRkZFWCAtIENvbGQg4p2E77iPW0NvcHlyaWdodCBGcmVlXQAGTkVGRkVYAAAAAAAC2ngAC1d6UUJBYzhpNzNFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9V3pRQkFjOGk3M0UAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 21:01:41.577  INFO 3036 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Soldier"
+2021-08-30 21:01:42.239  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Soldier
+2021-08-30 21:01:42.259  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAiAIAKE5FRkZFWCAtIFNvbGRpZXIg7aC97bSlIFtDb3B5cmlnaHQgRnJlZV0ABk5FRkZFWAAAAAAAA0vAAAtDY3NoXy1DdWNsNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUNjc2hfLUN1Y2w0AAd5b3V0dWJlAAAAAAAAAAA="}
+2021-08-30 21:05:18.834  INFO 3036 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Never Give Up"
+2021-08-30 21:05:19.484  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Never Give Up
+2021-08-30 21:05:19.493  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAjgIALk5FRkZFWCAtIE5ldmVyIEdpdmUgVXAg4pid77iPIFtDb3B5cmlnaHQgRnJlZV0ABk5FRkZFWAAAAAAAA9hgAAtfNzBRLVhqM3JFbwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PV83MFEtWGozckVvAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-08-30 21:09:31.919  INFO 3036 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Numb"
+2021-08-30 21:09:32.958  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Numb
+2021-08-30 21:09:32.986  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAfgIAHk5FRkZFWCAtIE51bWIgW0NvcHlyaWdodCBGcmVlXQAGTkVGRkVYAAAAAAACMoAAC2xKa0VGMF9RaWdVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bEprRUYwX1FpZ1UAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 21:11:57.743  INFO 3036 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Life"
+2021-08-30 21:11:58.492  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Life
+2021-08-30 21:11:58.514  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAggIAIk5FRkZFWCAtIExpZmUg4pyoIFtDb3B5cmlnaHQgRnJlZV0ABk5FRkZFWAAAAAAAAffoAAtUUENhV1FRbzExQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVRQQ2FXUVFvMTFBAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-08-30 21:14:01.128  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":10}
+2021-08-30 21:14:07.824  INFO 3036 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Pro"
+2021-08-30 21:14:08.562  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Pro
+2021-08-30 21:14:08.570  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAhAIAJE5FRkZFWCAtIFBybyDtoL3tsaAgW0NvcHlyaWdodCBGcmVlXQAGTkVGRkVYAAAAAAADU5AAC0ZLY0R0RXRUM3dVAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9RktjRHRFdFQzd1UAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 21:14:22.187  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":15}
+2021-08-30 21:17:46.803  INFO 3036 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:NEFFEX - Failure"
+2021-08-30 21:17:47.507  INFO 3036 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: NEFFEX - Failure
+2021-08-30 21:17:47.535  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAhwIAJ05FRkZFWC0gRmFpbHVyZSDtoL3ttKUgW0NvcHlyaWdodCBGcmVlXQAGTkVGRkVYAAAAAAAE2jAAC1lLcURpTkpKUFhrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WUtxRGlOSkpQWGsAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 21:18:07.186  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"821068727843160144","pause":true}
+2021-08-30 21:18:07.199  INFO 3036 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"821068727843160144"}
+2021-08-30 21:30:48.428  INFO 9116 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        44fcfdf945fc6cd9ce6c96480d3b7dc098897a51-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.04.2021 09:53:06 UTC
+	Branch          dev
+	Commit:         44fcfdf
+	Commit time:    01.04.2021 08:19:05 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.74
+
+2021-08-30 21:30:49.332  INFO 9116 --- [main] lavalink.server.Launcher                 : Starting Launcher on GuestedKun with PID 9116 (C:\Users\ellio\Desktop\AHK's and other things\MonikaV3Remaster\Lavalink.jar started by ellio in C:\Users\ellio\Desktop\AHK's and other things\MonikaV3Remaster)
+2021-08-30 21:30:49.333  INFO 9116 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-08-30 21:30:49.884  WARN 9116 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-08-30 21:30:56.491  WARN 9116 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-08-30 21:30:56.578  INFO 9116 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-08-30 21:30:56.578  INFO 9116 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6902 ms
+2021-08-30 21:30:57.882  WARN 9116 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-08-30 21:30:59.492  INFO 9116 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-08-30 21:31:00.700  INFO 9116 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-08-30 21:31:00.701  WARN 9116 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-08-30 21:31:01.420  INFO 9116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-30 21:31:02.254  INFO 9116 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-08-30 21:31:02.274  INFO 9116 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-08-30 21:31:02.467  INFO 9116 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-08-30 21:31:02.498  INFO 9116 --- [main] lavalink.server.Launcher                 : Started Launcher in 18.33 seconds (JVM running for 27.455)
+2021-08-30 21:31:02.506  INFO 9116 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-08-30 21:31:11.986  INFO 9116 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 21:31:11.988  INFO 9116 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 21:31:12.000  INFO 9116 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-08-30 21:31:12.108  INFO 9116 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49360
+2021-08-30 21:31:12.473  INFO 9116 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-08-30 21:31:18.461  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":50}
+2021-08-30 21:31:18.470  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"821068727843160144","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-08-30 21:31:18.471  WARN 9116 --- [XNIO-1 I/O-4] lavalink.server.io.WebSocketHandlers     : The 'equalizer' op has been deprecated in favour of the 'filters' op. Please switch to use that one, as this op will get removed in v4.
+2021-08-30 21:31:18.476  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":100}
+2021-08-30 21:31:18.483  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"821068727843160144"}
+2021-08-30 21:31:18.547  INFO 9116 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Lo-fight whitty mod ost"
+2021-08-30 21:31:18.589  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"89e3282ea429ba037c3ed1b09eaad23f","op":"voiceUpdate","guildId":"821068727843160144","event":{"token":"b6481944d2d53dda","guild_id":"821068727843160144","endpoint":"atlanta3365.discord.media:443"}}
+2021-08-30 21:31:21.702  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"89e3282ea429ba037c3ed1b09eaad23f","op":"voiceUpdate","guildId":"821068727843160144","event":{"token":"b6481944d2d53dda","guild_id":"821068727843160144","endpoint":"atlanta3365.discord.media:443"}}
+2021-08-30 21:31:25.882  INFO 9116 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Lo-fight whitty mod ost
+2021-08-30 21:31:26.098  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"821068727843160144","track":"QAAAlgIAK0ZyaWRheSBOaWdodCBGdW5raW4nIC0gVlMgV2hpdHR5IC8gTG8tRmlnaHQAEUhhbmsgSi4gV2ltYmxldG9uAAAAAAABuWgAC0VFdk9YWmJLZ0JvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9RUV2T1haYktnQm8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-08-30 21:31:27.812  INFO 9116 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$595/0x00000008012e9408@15020087
+2021-08-30 21:31:28.554  INFO 9116 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-08-30 21:31:28.556  INFO 9116 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-08-30 21:31:30.626  INFO 9116 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-08-30 21:31:41.540  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"821068727843160144","volume":10}
+2021-08-30 21:33:53.544  INFO 9116 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"821068727843160144"}
+2021-08-30 21:38:59.495  WARN 9116 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 0] [Bucket 200 = 0] [Bucket 500 = 0] [Bucket 2000 = 1] 
